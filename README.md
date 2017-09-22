@@ -11,7 +11,7 @@ canvas绘制红包雨活动（基于雪花飘落组件）
     }
     
 
-## 在代码216 - 241 中新增了碰撞检测 以及一些逻辑的处理，改动后为
+## 在代码216 - 241 中新增了点击区域块事件 以及一些逻辑的处理，改动后为
 
       var count = parseInt($(".js-point-count").html());
       canvas.addEventListener("click", function(e) {
